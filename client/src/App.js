@@ -6,7 +6,7 @@ import "./App.css";
 const App = () => {
   return (
     <Router>
-      <nav>
+      <nav className="nav">
         <p className="paragraph">Book Store</p>
         <ul className="navbar">
           <li>

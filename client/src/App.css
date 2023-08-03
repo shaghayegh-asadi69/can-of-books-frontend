@@ -1,17 +1,33 @@
 body{
   background-color: rgb(222, 203, 206);
+    text-align: center;
+
 }
 .paragraph{
+  padding-top: 30px;
   font-size: 35px;
   text-align: center;
+  color: #ac5dbc;
 }
-.navbar li{
-display: block;
+.navbar{
+  display: flex;
+list-style-type: none;
+
+}
+.navbar li a{
+display: flex;
+flex-direction: row;
 text-decoration: none;
-font-size: 20px;
+font-size: 22px;
 margin: 10px;
 padding: 5px;
-color: #c1c3d1;
+ color: #ac5dbc;
+}
+.img{
+  border: 3px solid ;
+   color: #ac5dbc;
 
-
+}
+.nav{
+  background-color: #151414;
 }
