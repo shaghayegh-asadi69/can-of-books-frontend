@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import BookShelf from "./BookShelf";
+import App from "./App.js";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <BookShelf />
+    <App/>
   </React.StrictMode>,
   document.getElementById("root")
 );
