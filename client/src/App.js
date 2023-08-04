@@ -22,6 +22,7 @@ const App = () => {
         <Route exact path="/" element={<BestBooks />}></Route>
       </Routes>
     </Router>
+    
   );
 };
 
